@@ -4,50 +4,82 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HOME</title>
+    <title>Ariel</title>
     <style>
       .nome-site > div {
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
         width: 1263px;
-        height: 35px;
+        height: 70px;
         background-color: rgba(147, 106, 228, 0.927);
       }
-
-      .flex-container > div {
-        margin: 200px;
+      .navBar > div {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
         background-color: #91e459;
+        align-items: center;
+        justify-content: space-between;
+        margin: 200px;
         margin-top: 60px;
         margin-left: 170px;
         padding: 5px;
         font-size: 20px;
-        width: 900px;
+        width: 1000px;
         height: 40px;
-        align-content: center;
       }
       body {
         background-image: url(https://i.pinimg.com/originals/2e/b7/5f/2eb75f21ea6cb17cb4f29c47baf79065.gif);
+      }
+      .perfil {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 25%;
+      }
+      .flex-container {
+        flex-wrap: wrap;
+        background-color: #91e459c2;
+        justify-content: space-around;
+        justify-content: space-between;
+      }
+      #titulo-cont{
+        text-align: center;
       }
     </style>
   </head>
   <div class="nome-site">
     <div>
-      <img src="logo.png" alt="logo do blog" width="150px" height="70px">
+      <img src="logo.jpg" alt="logo do blog" width="150px" height="70px" />
       <h1>UMA INCRÍVEL VIDA COMUM</h1>
-        <img src="logo insta.jpg" alt="logo instagram" style="width: 70px;height: 70px;">
-      </div>
+      <img
+        src="logo insta.jpg"
+        alt="logo instagram"
+        style="width: 70px; height: 70px"
+      />
+    </div>
+  </div>
+  <div class="navBar">
+    <div>
+      <a href="index.html">Quem sou?</a>
+      <a href="meus-filmes.html">Meus filmes</a>
+      <a href="meus-jogos.html">Meus Jogos</a>
+      <a href="Minhas-musicas.html">Minha Musicas</a>
+    </div>
+  </div>
   <body>
+    <img src="images.png" alt="perfil" class="perfil" />
     <div class="flex-container">
       <div>
-        <a href="#" class="button">Quem Sou?</a>
-        <a href="#" class="button">Meus Filmes</a>
-        <a href="#" class="button">Minhas Musicas</a>
-        <a href="#" class="button">Meus Jogos</a>
+        <h1 id="titulo-cont">Quem sou?</h1>
+        <h3>
+          Meu nome é Ariel Mauricio Morais Nogueira, tenho 16 e meu signo é
+          aquario, moro no Brasil especificamente no estado de São Paulo. Sou
+          Atleta de natação pelo clube Sesi-Sp
+        </h3>
       </div>
     </div>
   </body>
+</html>
 </html>
