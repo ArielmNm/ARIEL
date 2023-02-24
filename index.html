@@ -29,9 +29,6 @@
         width: 1000px;
         height: 40px;
       }
-      .conteudo > div{
-        background-color: rgb(35, 93, 143);
-      }
       body {
         background-image: url(https://i.pinimg.com/originals/2e/b7/5f/2eb75f21ea6cb17cb4f29c47baf79065.gif);
       }
@@ -40,6 +37,15 @@
   margin-left: auto;
   margin-right: auto;
   width: 25%
+      }
+      .flex-container {
+        flex-wrap: wrap;
+        background-color: #91e459c2;
+        justify-content: space-around;
+        justify-content: space-between;
+      }
+      #titulo-cont{
+        text-align: center;
       }
     </style>
   </head>
@@ -63,6 +69,16 @@
     </div>
   </div>
   <body>
-    <img src="images.png" alt="perfil" class="perfil">
+    <img src="images.png" alt="perfil" class="perfil" />
+    <div class="flex-container">
+      <div>
+        <h1 id="titulo-cont">Quem sou?</h1>
+        <h3>
+          Meu nome é Ariel Mauricio Morais Nogueira, tenho 16 e meu signo é
+          aquario, moro no Brasil especificamente no estado de São Paulo. Sou
+          Atleta de natação pelo clube Sesi-Sp
+        </h3>
+      </div>
+    </div>
   </body>
 </html>
